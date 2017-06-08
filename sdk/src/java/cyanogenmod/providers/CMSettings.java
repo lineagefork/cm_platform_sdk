@@ -2629,6 +2629,12 @@ public final class CMSettings {
         public static final String QS_SHOW_BRIGHTNESS_SLIDER = "qs_show_brightness_slider";
 
         /**
+         * Whether to show the auto brightness icon in quick settings panel.
+         * @hide
+         */
+        public static final String QS_SHOW_AUTO_BRIGHTNESS = "qs_show_auto_brightness";
+
+        /**
          * List of QS tile names
          * @hide
          */
@@ -2797,6 +2803,20 @@ public final class CMSettings {
          * @hide
          */
         public static final String LOCKSCREEN_VISUALIZER_ENABLED = "lockscreen_visualizer";
+
+        /**
+         * Whether to show media art on lockscreen
+         * Boolean setting. 0 = off, 1 = on.
+         * @hide
+         */
+        public static final String LOCKSCREEN_MEDIA_METADATA = "lockscreen_media_metadata";
+
+        /**
+         * Whether to activate double tap to sleep on keyguard
+         * Boolean setting. 0 = off, 1 = on.
+         * @hide
+         */
+        public static final String DOUBLE_TAP_SLEEP_ANYWHERE = "double_tap_sleep_anywhere";
 
         /**
          * Whether the lock screen is currently enabled/disabled by SystemUI (the QS tile likely).
